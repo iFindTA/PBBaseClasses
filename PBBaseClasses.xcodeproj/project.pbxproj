@@ -104,6 +104,7 @@
 		60C816861F6250E100CEC5D6 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
 		60C816871F6250E100CEC5D6 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 		60C8168C1F62529D00CEC5D6 /* PBBaseFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PBBaseFont.ttf; sourceTree = "<group>"; };
+		60C8179A1F627E8000CEC5D6 /* PBBaseClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBaseClasses.h; sourceTree = "<group>"; };
 		849619B291A348AF83187F58 /* Pods-PBBaseClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBBaseClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig"; sourceTree = "<group>"; };
 		9ACAE2F46F36EF71CE8955A0 /* Pods-PBBaseClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBBaseClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		EDB2790D82A39951EADBCE62 /* libPods-PBBaseClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBBaseClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +250,7 @@
 		60C816511F624A6A00CEC5D6 /* BaseHeaders */ = {
 			isa = PBXGroup;
 			children = (
+				60C8179A1F627E8000CEC5D6 /* PBBaseClasses.h */,
 			);
 			path = BaseHeaders;
 			sourceTree = "<group>";
