@@ -1,10 +1,7 @@
-#
-#  Be sure to run `pod spec lint PBBaseClasses.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#Pod::Spec.new do |s|
+Pod::Spec.new do |s|
 
   s.name         = "PBBaseClasses"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Basic classes for iOS development."
   s.description  = "Basic classes for FLK.Inc iOS Developers, such as ViewController/View etc."
 
