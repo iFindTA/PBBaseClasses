@@ -9,7 +9,7 @@
 #ifndef PBBaseClasses_h
 #define PBBaseClasses_h
 
-#import "PBBaseView.h"
+#import "PBView.h"
 #import "PBBaseProfile.h"
 
 #endif /* PBBaseClasses_h */
