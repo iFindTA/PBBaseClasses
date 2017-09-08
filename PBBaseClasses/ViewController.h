@@ -6,9 +6,9 @@
 //  Copyright © 2017年 nanhujiaju. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PBBaseProfile.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : PBBaseProfile
 
 
 @end
