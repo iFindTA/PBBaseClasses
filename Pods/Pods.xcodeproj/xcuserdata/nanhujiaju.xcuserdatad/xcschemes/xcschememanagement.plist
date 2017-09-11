@@ -14,12 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>PBMediator.xcscheme</key>
+		<key>Pods-PBBaseClasses.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-PBBaseClasses.xcscheme</key>
+		<key>Pods-PBClasses.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,12 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E8024F89F9E9E75FAD33E39B1DC3B31</key>
+		<key>0971C057FFCA2814F770A5B2B7CEE743</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6824C09261552531CB7AB74B9F6AD1E6</key>
+		<key>26AACD8A150A9E52CDA34FF2237EABD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46107345C064FC45D7AE444FDD36ECDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,17 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EBC61803EA25DDA8D846DA47329B2584</key>
+		<key>DAF7B9B35C634CAE4CEE795EC5267D28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EE5FC9CC27FD16A8000225511F950EA1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA5606B9950B6CD3DAAC03BA0EBD4936</key>
+		<key>F816EEA4FF51CB37DC5A3AA8C5ED68AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

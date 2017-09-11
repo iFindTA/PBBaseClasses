@@ -7,6 +7,13 @@ pod 'PBKits'
 pod 'YYKit'
 pod 'Masonry'
 pod 'WZLBadge'
-pod 'PBMediator'
+pod 'SVProgressHUD'
+end
+
+target 'PBClasses' do
+pod 'PBKits'
+pod 'YYKit'
+pod 'Masonry'
+pod 'WZLBadge'
 pod 'SVProgressHUD'
 end

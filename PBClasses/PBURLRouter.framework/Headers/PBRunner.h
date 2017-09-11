@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface PBRunner : NSObject
 
 @end
 
 @interface NSString (PBRunner)
+
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  @brief instance's init method in runtime

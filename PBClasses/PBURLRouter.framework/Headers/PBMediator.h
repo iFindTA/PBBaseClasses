@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "PBRunner.h"
-#import "PBNotFounder.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -108,7 +106,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @return the page
  */
-- (PBNotFounder *)generateNotFounder;
+- (UIViewController *)generateNotFounder;
 
 /**
  clean the class caches that in memory

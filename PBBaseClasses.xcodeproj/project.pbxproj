@@ -33,6 +33,32 @@
 		60C8168A1F6250E100CEC5D6 /* PresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816851F6250E100CEC5D6 /* PresentController.m */; };
 		60C8168B1F6250E100CEC5D6 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816871F6250E100CEC5D6 /* SearchController.m */; };
 		60C8168D1F62529D00CEC5D6 /* PBBaseFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C8168C1F62529D00CEC5D6 /* PBBaseFont.ttf */; };
+		60C817A91F6283E900CEC5D6 /* PBClasses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C817A01F6283E800CEC5D6 /* PBClasses.framework */; };
+		60C817B01F6283E900CEC5D6 /* PBClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C817AF1F6283E900CEC5D6 /* PBClassesTests.m */; };
+		60C817B21F6283E900CEC5D6 /* PBClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C817A21F6283E800CEC5D6 /* PBClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817B61F6283E900CEC5D6 /* PBClasses.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60C817A01F6283E800CEC5D6 /* PBClasses.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60C817BF1F62844900CEC5D6 /* PBBaseProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816551F624AA700CEC5D6 /* PBBaseProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817C01F62844900CEC5D6 /* PBBaseProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816561F624AA700CEC5D6 /* PBBaseProfile.m */; };
+		60C817C11F62844900CEC5D6 /* PBBaseNavigationProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816591F624BD100CEC5D6 /* PBBaseNavigationProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817C21F62844900CEC5D6 /* PBBaseNavigationProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8165A1F624BD100CEC5D6 /* PBBaseNavigationProfile.m */; };
+		60C817C31F62844900CEC5D6 /* PBBaseTabBarProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816611F624D0F00CEC5D6 /* PBBaseTabBarProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817C41F62844900CEC5D6 /* PBBaseTabBarProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816621F624D0F00CEC5D6 /* PBBaseTabBarProfile.m */; };
+		60C817C51F62844900CEC5D6 /* PBBaseClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C8179A1F627E8000CEC5D6 /* PBBaseClasses.h */; };
+		60C817C61F62844900CEC5D6 /* PBIndicateButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816641F624DAF00CEC5D6 /* PBIndicateButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817C71F62844900CEC5D6 /* PBIndicateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816651F624DAF00CEC5D6 /* PBIndicateButton.m */; };
+		60C817C81F62844900CEC5D6 /* PBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816671F624E2200CEC5D6 /* PBButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817C91F62844900CEC5D6 /* PBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816681F624E2200CEC5D6 /* PBButton.m */; };
+		60C817CA1F62844900CEC5D6 /* PBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C8166A1F624E5C00CEC5D6 /* PBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817CB1F62844900CEC5D6 /* PBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8166B1F624E5C00CEC5D6 /* PBView.m */; };
+		60C817CC1F62844900CEC5D6 /* PBCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C8166D1F624EA900CEC5D6 /* PBCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817CD1F62844900CEC5D6 /* PBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8166E1F624EA900CEC5D6 /* PBCell.m */; };
+		60C817CE1F62844900CEC5D6 /* PBTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816701F624ED700CEC5D6 /* PBTabBarItem.h */; };
+		60C817CF1F62844900CEC5D6 /* PBTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816711F624ED700CEC5D6 /* PBTabBarItem.m */; };
+		60C817D01F62844900CEC5D6 /* PBConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816581F624ACB00CEC5D6 /* PBConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C817D11F6284A100CEC5D6 /* PBBaseClasses.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C816761F624F6800CEC5D6 /* PBBaseClasses.strings */; };
+		60C818D31F6517ED00CEC5D6 /* PBURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */; };
+		60C818D41F6517FB00CEC5D6 /* PBURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */; };
+		BBDB67D58B421E62BDF2BC38 /* libPods-PBClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1BB8ABBC625F4E8DD6FEC1 /* libPods-PBClasses.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +76,42 @@
 			remoteGlobalIDString = 60C816161F6248AA00CEC5D6;
 			remoteInfo = PBBaseClasses;
 		};
+		60C817AA1F6283E900CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C8160F1F6248A900CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C8179F1F6283E800CEC5D6;
+			remoteInfo = PBClasses;
+		};
+		60C817AC1F6283E900CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C8160F1F6248A900CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C816161F6248AA00CEC5D6;
+			remoteInfo = PBBaseClasses;
+		};
+		60C817B31F6283E900CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C8160F1F6248A900CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C8179F1F6283E800CEC5D6;
+			remoteInfo = PBClasses;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60C817BA1F6283E900CEC5D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60C817B61F6283E900CEC5D6 /* PBClasses.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		60C816171F6248AA00CEC5D6 /* PBBaseClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBBaseClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,8 +166,18 @@
 		60C816871F6250E100CEC5D6 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 		60C8168C1F62529D00CEC5D6 /* PBBaseFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PBBaseFont.ttf; sourceTree = "<group>"; };
 		60C8179A1F627E8000CEC5D6 /* PBBaseClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBaseClasses.h; sourceTree = "<group>"; };
+		60C817A01F6283E800CEC5D6 /* PBClasses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBClasses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C817A21F6283E800CEC5D6 /* PBClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBClasses.h; sourceTree = "<group>"; };
+		60C817A31F6283E900CEC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C817A81F6283E900CEC5D6 /* PBClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBClassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C817AF1F6283E900CEC5D6 /* PBClassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBClassesTests.m; sourceTree = "<group>"; };
+		60C817B11F6283E900CEC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PBURLRouter.framework; path = PBClasses/PBURLRouter.framework; sourceTree = "<group>"; };
+		6AFE0A7591AE819E53B7EA95 /* Pods-PBClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.release.xcconfig"; sourceTree = "<group>"; };
 		849619B291A348AF83187F58 /* Pods-PBBaseClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBBaseClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig"; sourceTree = "<group>"; };
 		9ACAE2F46F36EF71CE8955A0 /* Pods-PBBaseClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBBaseClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EAC2EC24CA031226C1D0F4 /* Pods-PBClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1BB8ABBC625F4E8DD6FEC1 /* libPods-PBClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB2790D82A39951EADBCE62 /* libPods-PBBaseClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBBaseClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C818D41F6517FB00CEC5D6 /* PBURLRouter.framework in Frameworks */,
 				053345705024FD217350A093 /* libPods-PBBaseClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +205,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C8179C1F6283E800CEC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C818D31F6517ED00CEC5D6 /* PBURLRouter.framework in Frameworks */,
+				BBDB67D58B421E62BDF2BC38 /* libPods-PBClasses.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C817A51F6283E900CEC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C817A91F6283E900CEC5D6 /* PBClasses.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +231,8 @@
 				60C816191F6248AA00CEC5D6 /* PBBaseClasses */,
 				60C816331F6248AB00CEC5D6 /* PBBaseClassesTests */,
 				60C8163E1F6248AB00CEC5D6 /* PBBaseClassesUITests */,
+				60C817A11F6283E800CEC5D6 /* PBClasses */,
+				60C817AE1F6283E900CEC5D6 /* PBClassesTests */,
 				60C816181F6248AA00CEC5D6 /* Products */,
 				BDFB95B0E2BDCF17D74F1CDD /* Pods */,
 				E6E449C28DD13C3160D57DAE /* Frameworks */,
@@ -154,6 +245,8 @@
 				60C816171F6248AA00CEC5D6 /* PBBaseClasses.app */,
 				60C816301F6248AB00CEC5D6 /* PBBaseClassesTests.xctest */,
 				60C8163B1F6248AB00CEC5D6 /* PBBaseClassesUITests.xctest */,
+				60C817A01F6283E800CEC5D6 /* PBClasses.framework */,
+				60C817A81F6283E900CEC5D6 /* PBClassesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -313,11 +406,31 @@
 			path = PushPopStacks;
 			sourceTree = "<group>";
 		};
+		60C817A11F6283E800CEC5D6 /* PBClasses */ = {
+			isa = PBXGroup;
+			children = (
+				60C817A21F6283E800CEC5D6 /* PBClasses.h */,
+				60C817A31F6283E900CEC5D6 /* Info.plist */,
+			);
+			path = PBClasses;
+			sourceTree = "<group>";
+		};
+		60C817AE1F6283E900CEC5D6 /* PBClassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C817AF1F6283E900CEC5D6 /* PBClassesTests.m */,
+				60C817B11F6283E900CEC5D6 /* Info.plist */,
+			);
+			path = PBClassesTests;
+			sourceTree = "<group>";
+		};
 		BDFB95B0E2BDCF17D74F1CDD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9ACAE2F46F36EF71CE8955A0 /* Pods-PBBaseClasses.debug.xcconfig */,
 				849619B291A348AF83187F58 /* Pods-PBBaseClasses.release.xcconfig */,
+				D5EAC2EC24CA031226C1D0F4 /* Pods-PBClasses.debug.xcconfig */,
+				6AFE0A7591AE819E53B7EA95 /* Pods-PBClasses.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -325,12 +438,35 @@
 		E6E449C28DD13C3160D57DAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */,
 				EDB2790D82A39951EADBCE62 /* libPods-PBBaseClasses.a */,
+				DB1BB8ABBC625F4E8DD6FEC1 /* libPods-PBClasses.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60C8179D1F6283E800CEC5D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C817B21F6283E900CEC5D6 /* PBClasses.h in Headers */,
+				60C817D01F62844900CEC5D6 /* PBConstant.h in Headers */,
+				60C817BF1F62844900CEC5D6 /* PBBaseProfile.h in Headers */,
+				60C817C61F62844900CEC5D6 /* PBIndicateButton.h in Headers */,
+				60C817C31F62844900CEC5D6 /* PBBaseTabBarProfile.h in Headers */,
+				60C817C11F62844900CEC5D6 /* PBBaseNavigationProfile.h in Headers */,
+				60C817C81F62844900CEC5D6 /* PBButton.h in Headers */,
+				60C817CC1F62844900CEC5D6 /* PBCell.h in Headers */,
+				60C817CA1F62844900CEC5D6 /* PBView.h in Headers */,
+				60C817C51F62844900CEC5D6 /* PBBaseClasses.h in Headers */,
+				60C817CE1F62844900CEC5D6 /* PBTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		60C816161F6248AA00CEC5D6 /* PBBaseClasses */ = {
@@ -343,10 +479,12 @@
 				60C816151F6248AA00CEC5D6 /* Resources */,
 				5FA5EC0185185E89022C868D /* [CP] Embed Pods Frameworks */,
 				AEBE9657224CD17969A415D9 /* [CP] Copy Pods Resources */,
+				60C817BA1F6283E900CEC5D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				60C817B41F6283E900CEC5D6 /* PBXTargetDependency */,
 			);
 			name = PBBaseClasses;
 			productName = PBBaseClasses;
@@ -389,6 +527,45 @@
 			productReference = 60C8163B1F6248AB00CEC5D6 /* PBBaseClassesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		60C8179F1F6283E800CEC5D6 /* PBClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C817B71F6283E900CEC5D6 /* Build configuration list for PBXNativeTarget "PBClasses" */;
+			buildPhases = (
+				260123D0EE16CF41BB50C9E0 /* [CP] Check Pods Manifest.lock */,
+				60C8179B1F6283E800CEC5D6 /* Sources */,
+				60C8179C1F6283E800CEC5D6 /* Frameworks */,
+				60C8179D1F6283E800CEC5D6 /* Headers */,
+				60C8179E1F6283E800CEC5D6 /* Resources */,
+				0D15EBEA87AE8ACAC65D7F2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBClasses;
+			productName = PBClasses;
+			productReference = 60C817A01F6283E800CEC5D6 /* PBClasses.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60C817A71F6283E900CEC5D6 /* PBClassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C817BB1F6283E900CEC5D6 /* Build configuration list for PBXNativeTarget "PBClassesTests" */;
+			buildPhases = (
+				60C817A41F6283E900CEC5D6 /* Sources */,
+				60C817A51F6283E900CEC5D6 /* Frameworks */,
+				60C817A61F6283E900CEC5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C817AB1F6283E900CEC5D6 /* PBXTargetDependency */,
+				60C817AD1F6283E900CEC5D6 /* PBXTargetDependency */,
+			);
+			name = PBClassesTests;
+			productName = PBClassesTests;
+			productReference = 60C817A81F6283E900CEC5D6 /* PBClassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -415,6 +592,17 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 60C816161F6248AA00CEC5D6;
 					};
+					60C8179F1F6283E800CEC5D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M8K6A7692X;
+						ProvisioningStyle = Automatic;
+					};
+					60C817A71F6283E900CEC5D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M8K6A7692X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C816161F6248AA00CEC5D6;
+					};
 				};
 			};
 			buildConfigurationList = 60C816121F6248A900CEC5D6 /* Build configuration list for PBXProject "PBBaseClasses" */;
@@ -434,6 +622,8 @@
 				60C816161F6248AA00CEC5D6 /* PBBaseClasses */,
 				60C8162F1F6248AB00CEC5D6 /* PBBaseClassesTests */,
 				60C8163A1F6248AB00CEC5D6 /* PBBaseClassesUITests */,
+				60C8179F1F6283E800CEC5D6 /* PBClasses */,
+				60C817A71F6283E900CEC5D6 /* PBClassesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -466,9 +656,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C8179E1F6283E800CEC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C817D11F6284A100CEC5D6 /* PBBaseClasses.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C817A61F6283E900CEC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D15EBEA87AE8ACAC65D7F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		260123D0EE16CF41BB50C9E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2CAAFA5173A913179FD2F5A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,6 +792,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C8179B1F6283E800CEC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C817C01F62844900CEC5D6 /* PBBaseProfile.m in Sources */,
+				60C817C21F62844900CEC5D6 /* PBBaseNavigationProfile.m in Sources */,
+				60C817C41F62844900CEC5D6 /* PBBaseTabBarProfile.m in Sources */,
+				60C817C71F62844900CEC5D6 /* PBIndicateButton.m in Sources */,
+				60C817C91F62844900CEC5D6 /* PBButton.m in Sources */,
+				60C817CB1F62844900CEC5D6 /* PBView.m in Sources */,
+				60C817CD1F62844900CEC5D6 /* PBCell.m in Sources */,
+				60C817CF1F62844900CEC5D6 /* PBTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C817A41F6283E900CEC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C817B01F6283E900CEC5D6 /* PBClassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -569,6 +827,21 @@
 			isa = PBXTargetDependency;
 			target = 60C816161F6248AA00CEC5D6 /* PBBaseClasses */;
 			targetProxy = 60C8163C1F6248AB00CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C817AB1F6283E900CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C8179F1F6283E800CEC5D6 /* PBClasses */;
+			targetProxy = 60C817AA1F6283E900CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C817AD1F6283E900CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C816161F6248AA00CEC5D6 /* PBBaseClasses */;
+			targetProxy = 60C817AC1F6283E900CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C817B41F6283E900CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C8179F1F6283E800CEC5D6 /* PBClasses */;
+			targetProxy = 60C817B31F6283E900CEC5D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -703,6 +976,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8K6A7692X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PBClasses",
+				);
 				INFOPLIST_FILE = PBBaseClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -717,6 +994,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M8K6A7692X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PBClasses",
+				);
 				INFOPLIST_FILE = PBBaseClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -775,6 +1056,84 @@
 			};
 			name = Release;
 		};
+		60C817B81F6283E900CEC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EAC2EC24CA031226C1D0F4 /* Pods-PBClasses.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PBClasses",
+				);
+				INFOPLIST_FILE = PBClasses/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60C817B91F6283E900CEC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFE0A7591AE819E53B7EA95 /* Pods-PBClasses.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PBClasses",
+				);
+				INFOPLIST_FILE = PBClasses/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBClasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60C817BC1F6283E900CEC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = PBClassesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBClassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PBBaseClasses.app/PBBaseClasses";
+			};
+			name = Debug;
+		};
+		60C817BD1F6283E900CEC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = PBClassesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBClassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PBBaseClasses.app/PBBaseClasses";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -810,6 +1169,24 @@
 			buildConfigurations = (
 				60C8164B1F6248AB00CEC5D6 /* Debug */,
 				60C8164C1F6248AB00CEC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C817B71F6283E900CEC5D6 /* Build configuration list for PBXNativeTarget "PBClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C817B81F6283E900CEC5D6 /* Debug */,
+				60C817B91F6283E900CEC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C817BB1F6283E900CEC5D6 /* Build configuration list for PBXNativeTarget "PBClassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C817BC1F6283E900CEC5D6 /* Debug */,
+				60C817BD1F6283E900CEC5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PBConstant.h"
 #import <PBKits/PBKits.h>
-#import <PBMediator/PBMediator.h>
+#import <PBURLRouter/PBMediator.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
 /**

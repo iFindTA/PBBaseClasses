@@ -1,0 +1,6 @@
+framework module PBURLRouter {
+  umbrella header "PBURLRouter.h"
+
+  export *
+  module * { export * }
+}
