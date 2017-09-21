@@ -44,6 +44,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) UINavigationBar *navigationBar;
 
 /**
+ for iOS 11.0+
+ */
+@property (nonatomic, strong, readonly, nullable) UIView *statusStretch;
+
+/**
  whether self.view is visible
  
  @return result
@@ -160,6 +165,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)showAlertWithTitle:(NSString * _Nullable)title withMsg:(NSString * _Nullable)msg whetherShowOK:(BOOL)okShow whetherShowCancel:(BOOL)cancelShow withOKItem:(NSString * _Nullable)ok withOKCompletion:(void(^_Nullable)())okBlock withCancelCompletion:(void(^_Nullable)())cancelBlock;
 
-NS_ASSUME_NONNULL_END
-
 @end
+
+FOUNDATION_EXPORT CGFloat pb_expectedStatusBarHeight();
+
+NS_ASSUME_NONNULL_END

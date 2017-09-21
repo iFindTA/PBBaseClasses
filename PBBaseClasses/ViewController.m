@@ -20,11 +20,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.title = @"iPhone X";
+    
     //init back navigation bar item
     //left
     UIBarButtonItem *spacer = [self barSpacer];
     UIBarButtonItem *backBarItem = [self backBarButtonItem:nil withIconUnicode:@"\U0000e6e2"];
-    //[self.navigationBar pushNavigationItem:leftItem animated:true];
     UINavigationItem *title = [[UINavigationItem alloc] initWithTitle:@"屯儿里的人"];
     title.leftBarButtonItems = @[spacer, backBarItem];
     [self.navigationBar pushNavigationItem:title animated:true];
@@ -40,6 +41,7 @@
     NSLog(@"db name:%@", PB_STORAGE_DB_NAME);
     
     self.view.backgroundColor = [UIColor pb_randomColor];
+    
 }
 
 

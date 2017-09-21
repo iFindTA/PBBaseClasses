@@ -8,6 +8,9 @@
 
 #import "PBBaseProfile.h"
 #import <objc/message.h>
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
 
 static NSString * const PB_BASE_FONT               =   @"iconfont";
 
@@ -40,6 +43,12 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 @property (nonatomic, strong, readwrite) UINavigationBar *navigationBar;
 
+/**
+ for iOS 11.0+
+ */
+@property (nonatomic, strong, readwrite) UIView *statusStretch;
+@property (nonatomic, strong) MASConstraint *statusConstraint;
+
 @end
 
 @implementation PBBaseProfile
@@ -60,9 +69,10 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 - (void)loadView {
     [super loadView];
-    
-    //self.navigationController.navigationBarHidden = true;//disable swipe back gesture
-    self.navigationController.navigationBar.hidden = true;
+    if ([UIDevice currentDevice].systemVersion.floatValue < 11.0) {
+        //self.navigationController.navigationBarHidden = true;//disable swipe back gesture
+        self.navigationController.navigationBar.hidden = true;
+    }
     UINavigationBar *naviBar = [self initializedNavigationBar];
     [self.view addSubview:naviBar];
 }
@@ -73,11 +83,43 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.wetherInited = false;
+    CGFloat status_bar_height = pb_expectedStatusBarHeight();
+    UIColor *bgColor = pbColorMake(PB_NAVIBAR_BARTINT_HEX);
+    UIView *stretch = [[UIView alloc] initWithFrame:CGRectZero];
+    stretch.backgroundColor = bgColor;
+    [self.view addSubview:stretch];
+    self.statusStretch = stretch;
+    weakify(self)
+    [self.statusStretch mas_makeConstraints:^(MASConstraintMaker *make) {
+        strongify(self)
+        make.top.left.right.equalTo(self.view);
+        make.height.equalTo(status_bar_height);
+    }];
+    [self.navigationBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        strongify(self)
+        make.top.equalTo(self.view).priority(UILayoutPriorityDefaultHigh);
+        if (!self.statusConstraint) {
+            self.statusConstraint = make.top.equalTo(self.view).offset(status_bar_height).priority(UILayoutPriorityRequired);
+        }
+        [self.statusConstraint deactivate];
+        make.left.right.equalTo(self.view);
+        make.height.equalTo(PB_NAVIBAR_HEIGHT - PB_STATUSBAR_HEIGHT);
+    }];
     
+    if (@available(iOS 11.0, *)) {
+        [self.statusConstraint activate];
+    }
+}
+
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    if (@available(iOS 11.0, *)) {
+        [self.navigationController.view sendSubviewToBack:self.navigationController.navigationBar];
+    }
     if (!_wetherInited) {
         //record presentaion mode
         BOOL isModal = false;
@@ -96,8 +138,9 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    
-    [SVProgressHUD dismiss];
+    if ([SVProgressHUD isVisible]) {
+        [SVProgressHUD dismiss];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -147,10 +190,9 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 }
 
 - (void)hiddenNavigationBar {
-    //    CGRect frame = self.navigationBar.frame;
-    //    frame.origin.y -= PB_NAVIBAR_HEIGHT;
-    //    self.navigationBar.frame = frame;
-    //    [self.navigationBar displayColorLayer:false];
+    [self.statusStretch removeFromSuperview];
+    [self.navigationBar removeFromSuperview];
+    /*
     [self.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     @synchronized (self.navigationBar) {
         [self.navigationBar.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -163,7 +205,8 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
             }
         }];
     }
-    //[self printHierarchy4View:self.navigationBar];
+    [self printHierarchy4View:self.navigationBar];
+    //*/
 }
 
 - (void)printHierarchy4View:(UIView *)view {
@@ -189,7 +232,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 - (UIBarButtonItem *)barSpacer {
     UIBarButtonItem *barSpacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-    barSpacer.width = -PB_BOUNDARY_MARGIN;
+    barSpacer.width = -PB_CONTENT_MARGIN * 2;
     return barSpacer;
 }
 
@@ -463,6 +506,10 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 void checkNavigationStack(UIViewController *wk) {
     assert(wk.navigationController != nil);
+}
+
+CGFloat pb_expectedStatusBarHeight() {
+    return PB_STATUSBAR_HEIGHT * ([UIDevice pb_isiPhoneX]?1.5:1);
 }
 
 NSString * const PB_STORAGE_DB_NAME                                         =   @"com.pb.nanhu.app.db";

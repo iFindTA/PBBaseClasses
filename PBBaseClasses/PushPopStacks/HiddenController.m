@@ -23,12 +23,12 @@
     
     //init back navigation bar item
     //left
-    UIBarButtonItem *spacer = [self barSpacer];
-    UIBarButtonItem *backBarItem = [self backBarButtonItem:nil withIconUnicode:@"\U0000e6e2"];
-    //[self.navigationBar pushNavigationItem:leftItem animated:true];
-    UINavigationItem *title = [[UINavigationItem alloc] initWithTitle:@"Hidden Ctr"];
-    title.leftBarButtonItems = @[spacer, backBarItem];
-    [self.navigationBar pushNavigationItem:title animated:true];
+//    UIBarButtonItem *spacer = [self barSpacer];
+//    UIBarButtonItem *backBarItem = [self backBarButtonItem:nil withIconUnicode:@"\U0000e6e2"];
+//    UINavigationItem *title = [[UINavigationItem alloc] initWithTitle:@"Hidden Ctr"];
+//    title.leftBarButtonItems = @[spacer, backBarItem];
+//    [self.navigationBar pushNavigationItem:title animated:true];
+    [self hiddenNavigationBar];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(100, 200, 200, 50);
@@ -43,9 +43,6 @@
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(pushSearchEvent) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    
-    [self hiddenNavigationBar];
-    //self.navigationBar.barTintColor = [UIColor redColor];
     
     UIImageView *img = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
     img.backgroundColor = [UIColor yellowColor];

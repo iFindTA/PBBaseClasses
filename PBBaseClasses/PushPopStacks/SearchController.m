@@ -67,13 +67,13 @@
     
     weakify(self)
     
-    [self.navigationBar mas_updateConstraints:^(MASConstraintMaker *make) {
+    [self.navigationBar mas_remakeConstraints:^(MASConstraintMaker *make) {
         strongify(self)
-        make.top.equalTo(self.view).priority(UILayoutPriorityDefaultHigh);
+        make.top.equalTo(self.statusStretch.mas_bottom).priority(UILayoutPriorityDefaultHigh);
         make.left.right.equalTo(self.view);
-        make.height.equalTo(@(PB_NAVIBAR_HEIGHT));
+        make.height.equalTo(@(PB_NAVIBAR_HEIGHT - PB_STATUSBAR_HEIGHT));
         if (!self.mNaviBarConstraint) {
-            self.mNaviBarConstraint = make.top.equalTo(self.view).offset(-PB_NAVIBAR_HEIGHT);
+            self.mNaviBarConstraint = make.top.equalTo(self.view).offset(-PB_NAVIBAR_HEIGHT + PB_STATUSBAR_HEIGHT).priority(UILayoutPriorityRequired);
         }
         
     }];
@@ -84,7 +84,7 @@
         make.left.right.equalTo(self.view);
         make.height.equalTo(@(0)).priority(UILayoutPriorityDefaultHigh);
         if (!self.mNaviBarOffsetCst) {
-            self.mNaviBarOffsetCst = make.height.equalTo(@(PB_STATUSBAR_HEIGHT)).priority(UILayoutPriorityRequired);
+            self.mNaviBarOffsetCst = make.height.equalTo(PB_STATUSBAR_HEIGHT).priority(UILayoutPriorityRequired);
         }
     }];
     [self.mSearchBar mas_makeConstraints:^(MASConstraintMaker *make) {
