@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		053345705024FD217350A093 /* libPods-PBBaseClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB2790D82A39951EADBCE62 /* libPods-PBBaseClasses.a */; };
+		602617041F74A84300F9D783 /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 602617031F74A84300F9D783 /* PBNavigationBar.m */; };
 		60C8161C1F6248AA00CEC5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8161B1F6248AA00CEC5D6 /* main.m */; };
 		60C8161F1F6248AA00CEC5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8161E1F6248AA00CEC5D6 /* AppDelegate.m */; };
 		60C816221F6248AA00CEC5D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816211F6248AA00CEC5D6 /* ViewController.m */; };
@@ -112,6 +113,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		602617021F74A84300F9D783 /* PBNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBNavigationBar.h; sourceTree = "<group>"; };
+		602617031F74A84300F9D783 /* PBNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBNavigationBar.m; sourceTree = "<group>"; };
 		60C816171F6248AA00CEC5D6 /* PBBaseClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBBaseClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C8161B1F6248AA00CEC5D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60C8161D1F6248AA00CEC5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -357,6 +360,8 @@
 				60C8166B1F624E5C00CEC5D6 /* PBView.m */,
 				60C8166D1F624EA900CEC5D6 /* PBCell.h */,
 				60C8166E1F624EA900CEC5D6 /* PBCell.m */,
+				602617021F74A84300F9D783 /* PBNavigationBar.h */,
+				602617031F74A84300F9D783 /* PBNavigationBar.m */,
 				60C816701F624ED700CEC5D6 /* PBTabBarItem.h */,
 				60C816711F624ED700CEC5D6 /* PBTabBarItem.m */,
 			);
@@ -755,6 +760,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C816751F624F2900CEC5D6 /* PBBaseTabBarProfile+Hidden.m in Sources */,
+				602617041F74A84300F9D783 /* PBNavigationBar.m in Sources */,
 				60C816571F624AA700CEC5D6 /* PBBaseProfile.m in Sources */,
 				60C8167E1F62505400CEC5D6 /* PBBaseProfile+Delegate.m in Sources */,
 				60C8168A1F6250E100CEC5D6 /* PresentController.m in Sources */,

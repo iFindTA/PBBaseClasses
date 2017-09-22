@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PBConstant.h"
 #import <PBKits/PBKits.h>
+#import "PBNavigationBar.h"
 #import <PBURLRouter/PBMediator.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
@@ -39,14 +40,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL busy;
 
 /**
- the custom navigationBar
+ the custom navigationBar, adjust for iOS11.0+
  */
-@property (nonatomic, strong, readonly) UINavigationBar *navigationBar;
-
-/**
- for iOS 11.0+
- */
-@property (nonatomic, strong, readonly, nullable) UIView *statusStretch;
+@property (nonatomic, strong, readonly) PBNavigationBar *navigationBar;
 
 /**
  whether self.view is visible
@@ -168,5 +164,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 FOUNDATION_EXPORT CGFloat pb_expectedStatusBarHeight();
+
+FOUNDATION_EXPORT void pb_adjustsScrollViewInsets(UIScrollView * scrollView);
 
 NS_ASSUME_NONNULL_END

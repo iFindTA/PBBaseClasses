@@ -10,13 +10,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m"
-            timestampString = "527652659.869212"
+            timestampString = "527752580.308428"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "213"
-            endingLineNumber = "213"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "-printHierarchy4View:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PBBaseClasses/PushPopStacks/SearchController.m"
+            timestampString = "527753324.68896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SearchController viewDidLoad]"
+                  moduleName = "PBBaseClasses"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nanhujiaju/Desktop/iFindTA/PBBaseClasses/PBBaseClasses/PushPopStacks/SearchController.m"
+                  timestampString = "527753237.95319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1633">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__31-[SearchController viewDidLoad]_block_invoke"
+                  moduleName = "PBBaseClasses"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nanhujiaju/Desktop/iFindTA/PBBaseClasses/PBBaseClasses/PushPopStacks/SearchController.m"
+                  timestampString = "527753237.955799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

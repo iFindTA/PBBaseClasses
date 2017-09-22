@@ -41,7 +41,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 @property (nonatomic, assign, readwrite) BOOL wetherInited;
 
-@property (nonatomic, strong, readwrite) UINavigationBar *navigationBar;
+@property (nonatomic, strong, readwrite) PBNavigationBar *navigationBar;
 
 /**
  for iOS 11.0+
@@ -83,6 +83,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.wetherInited = false;
+    /*
     CGFloat status_bar_height = pb_expectedStatusBarHeight();
     UIColor *bgColor = pbColorMake(PB_NAVIBAR_BARTINT_HEX);
     UIView *stretch = [[UIView alloc] initWithFrame:CGRectZero];
@@ -109,6 +110,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     if (@available(iOS 11.0, *)) {
         [self.statusConstraint activate];
     }
+    //*/
 }
 
 - (void)viewWillLayoutSubviews {
@@ -163,16 +165,15 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 
 #pragma mark -- custom navigation left back barItem
 
-- (UINavigationBar *)initializedNavigationBar {
+- (PBNavigationBar *)initializedNavigationBar {
     if (!self.navigationBar) {
         //customize settings
         UIColor *tintColor = pbColorMake(PB_NAVIBAR_TINT_HEX);
         UIColor *barTintColor = pbColorMake(PB_NAVIBAR_BARTINT_HEX);//影响背景
         UIFont *font = [UIFont boldSystemFontOfSize:PBFontTitleSize + PBFONT_OFFSET];
         NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:tintColor, NSForegroundColorAttributeName,font,NSFontAttributeName, nil];
-        CGSize mainSize = [UIScreen mainScreen].bounds.size;
-        CGRect barBounds = CGRectMake(0, 0, mainSize.width, PB_NAVIBAR_HEIGHT);
-        UINavigationBar *naviBar = [[UINavigationBar alloc] initWithFrame:barBounds];
+        CGRect barBounds = CGRectZero;
+        PBNavigationBar *naviBar = [[PBNavigationBar alloc] initWithFrame:barBounds];
         naviBar.barStyle  = UIBarStyleBlack;
         //naviBar.backgroundColor = [UIColor redColor];
         UIImage *bgImg = [UIImage pb_imageWithColor:barTintColor];
@@ -247,14 +248,17 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     NSString *fontName = PB_BASE_FONT;
     UIFont *font = [UIFont fontWithName:fontName size:fontSize];
     NSString *title = PBFormat(@"%@%@",img, backTitle);
+    CGSize titleSize = [title pb_sizeThatFitsWithFont:font width:PBSCREEN_WIDTH];
     UIColor *fontColor = [UIColor pb_colorWithHexString:PB_NAVIBAR_TINT_STRING];
     //    CGFloat spacing = 2.f; // the amount of spacing to appear between image and title
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     //btn.backgroundColor = [UIColor pb_randomColor];
-    btn.frame = CGRectMake(0, 0, 55, 31);
+    btn.frame = CGRectMake(0, 0, titleSize.width, 30);
     btn.exclusiveTouch = true;
     btn.titleLabel.font = font;
-    //    btn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, spacing);
+    //btn.translatesAutoresizingMaskIntoConstraints = false;
+    //[btn setContentEdgeInsets:UIEdgeInsetsMake(13, 8, 13, 8)];
+    //    btn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, spacin
     //    btn.titleEdgeInsets = UIEdgeInsetsMake(0, spacing, 0, 0);
     [btn setTitle:title forState:UIControlStateNormal];
     [btn setTitleColor:fontColor forState:UIControlStateNormal];
@@ -509,7 +513,23 @@ void checkNavigationStack(UIViewController *wk) {
 }
 
 CGFloat pb_expectedStatusBarHeight() {
-    return PB_STATUSBAR_HEIGHT * ([UIDevice pb_isiPhoneX]?1.5:1);
+    return [UIDevice pb_isiPhoneX] ? PB_STATUSBAR_HEIGHT_X : PB_STATUSBAR_HEIGHT;
+}
+
+void pb_adjustsScrollViewInsets(UIScrollView * scrollView) {
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+    if ([scrollView respondsToSelector:NSSelectorFromString(@"setContentInsetAdjustmentBehavior:")]) {
+        NSMethodSignature *signature = [UIScrollView instanceMethodSignatureForSelector:@selector(setContentInsetAdjustmentBehavior:)];;
+        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];;
+        NSInteger argument = 2;;
+        invocation.target = scrollView;;
+        invocation.selector = @selector(setContentInsetAdjustmentBehavior:);;
+        [invocation setArgument:&argument atIndex:2];;
+        [invocation retainArguments];;
+        [invocation invoke];;
+    }
+    #pragma clang diagnostic pop
 }
 
 NSString * const PB_STORAGE_DB_NAME                                         =   @"com.pb.nanhu.app.db";
