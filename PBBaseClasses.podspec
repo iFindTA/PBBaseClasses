@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBBaseClasses"
-  s.version      = "1.5.0"
+  s.version      = "1.6.0"
   s.summary      = "Basic classes for iOS development."
   s.description  = "Basic classes for FLK.Inc iOS Developers, such as ViewController/View etc."
 
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #s.dependency "JSONKit", "~> 1.4"
   s.dependency 'PBKits'
   s.dependency 'YYKit'
+  s.dependency 'Masonry'
   s.dependency 'WZLBadge'
   s.dependency 'PBMediator'
   s.dependency 'SVProgressHUD'
