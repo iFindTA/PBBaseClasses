@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		053345705024FD217350A093 /* libPods-PBBaseClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB2790D82A39951EADBCE62 /* libPods-PBBaseClasses.a */; };
 		602617041F74A84300F9D783 /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 602617031F74A84300F9D783 /* PBNavigationBar.m */; };
+		604CA0441F74E646003A5429 /* PBNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 602617021F74A84300F9D783 /* PBNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		604CA0451F74E661003A5429 /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 602617031F74A84300F9D783 /* PBNavigationBar.m */; };
 		60C8161C1F6248AA00CEC5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8161B1F6248AA00CEC5D6 /* main.m */; };
 		60C8161F1F6248AA00CEC5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8161E1F6248AA00CEC5D6 /* AppDelegate.m */; };
 		60C816221F6248AA00CEC5D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816211F6248AA00CEC5D6 /* ViewController.m */; };
@@ -463,6 +465,7 @@
 				60C817C11F62844900CEC5D6 /* PBBaseNavigationProfile.h in Headers */,
 				60C817C81F62844900CEC5D6 /* PBButton.h in Headers */,
 				60C817CC1F62844900CEC5D6 /* PBCell.h in Headers */,
+				604CA0441F74E646003A5429 /* PBNavigationBar.h in Headers */,
 				60C817CA1F62844900CEC5D6 /* PBView.h in Headers */,
 				60C817C51F62844900CEC5D6 /* PBBaseClasses.h in Headers */,
 				60C817CE1F62844900CEC5D6 /* PBTabBarItem.h in Headers */,
@@ -800,6 +803,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604CA0451F74E661003A5429 /* PBNavigationBar.m in Sources */,
 				60C817C01F62844900CEC5D6 /* PBBaseProfile.m in Sources */,
 				60C817C21F62844900CEC5D6 /* PBBaseNavigationProfile.m in Sources */,
 				60C817C41F62844900CEC5D6 /* PBBaseTabBarProfile.m in Sources */,
