@@ -10,7 +10,7 @@
 #import "PBConstant.h"
 #import <PBKits/PBKits.h>
 #import "PBNavigationBar.h"
-#import <PBURLRouter/PBMediator.h>
+#import <PBMediator/PBMediator.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
 /**

@@ -59,7 +59,6 @@
 		60C817D01F62844900CEC5D6 /* PBConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C816581F624ACB00CEC5D6 /* PBConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60C817D11F6284A100CEC5D6 /* PBBaseClasses.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C816761F624F6800CEC5D6 /* PBBaseClasses.strings */; };
 		60C818D31F6517ED00CEC5D6 /* PBURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */; };
-		60C818D41F6517FB00CEC5D6 /* PBURLRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C818CF1F650DB500CEC5D6 /* PBURLRouter.framework */; };
 		BBDB67D58B421E62BDF2BC38 /* libPods-PBClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1BB8ABBC625F4E8DD6FEC1 /* libPods-PBClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -189,7 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C818D41F6517FB00CEC5D6 /* PBURLRouter.framework in Frameworks */,
 				053345705024FD217350A093 /* libPods-PBBaseClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@ pod 'PBKits'
 pod 'YYKit'
 pod 'Masonry'
 pod 'WZLBadge'
+pod 'PBMediator'
 pod 'SVProgressHUD'
 end
 
