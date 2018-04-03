@@ -166,7 +166,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
 #pragma mark -- custom navigation left back barItem
 
 - (PBNavigationBar *)initializedNavigationBar {
-    if (!self.navigationBar) {
+    if (!_navigationBar) {
         //customize settings
         UIColor *tintColor = pbColorMake(PB_NAVIBAR_TINT_HEX);
         UIColor *barTintColor = pbColorMake(PB_NAVIBAR_BARTINT_HEX);//影响背景
@@ -184,10 +184,10 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
         naviBar.tintColor = tintColor;//影响item字体
         [naviBar setTranslucent:false];
         [naviBar setTitleTextAttributes:attributes];//影响标题
-        self.navigationBar = naviBar;
+        _navigationBar = naviBar;
     }
     
-    return self.navigationBar;
+    return _navigationBar;
 }
 
 - (void)hiddenNavigationBar {
