@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24231e77-b3e6-4fbd-8b10-7d3b6c923fef" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/PBBaseClasses.podspec" afterPath="$PROJECT_DIR$/PBBaseClasses.podspec" />
+      <change beforePath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h" afterPath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h" />
+      <change beforePath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m" afterPath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m" />
+      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Masonry.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Masonry.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBKits.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBKits.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBMediator.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBMediator.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBBaseClasses.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBBaseClasses.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBClasses.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBClasses.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/SVProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/SVProgressHUD.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/WZLBadge.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/WZLBadge.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/YYKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/YYKit.xcscheme" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.markdown" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.plist" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-frameworks.sh" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-resources.sh" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses-resources.sh" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.debug.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.release.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit-prefix.pch" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit.xcconfig" />
+    </list>
+    <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/PBBaseClasses-eixylvigxdgvbqfgbjgxiosgasnu/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_052A3AD2-C278-411F-AD30-4FC10A3C4DC9" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PBBaseProfile.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2487">
+              <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UINavigationController+SJVideoPlayerAdd.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SJFullscreenPopGesture/UINavigationController+SJVideoPlayerAdd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBBaseNavigationProfile.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseNavigationProfile.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBBaseNavigationProfile.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseNavigationProfile.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIViewController+SJVideoPlayerAdd.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pods/SJFullscreenPopGesture/SJFullscreenPopGesture/UIViewController+SJVideoPlayerAdd.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-462">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBBaseProfile.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="73" column="62" lean-forward="false" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+              <folding>
+                <element signature="e#142#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBBaseTabBarProfile.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseTabBarProfile.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBBaseClasses.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseHeaders/PBBaseClasses.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#191#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseNavigationProfile.h" />
+        <option value="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h" />
+        <option value="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="142" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+              <item name="Pod" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+              <item name="Pod" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+              <item name="Pod" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="BaseControllers" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+              <item name="Pod" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="BaseHeaders" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="PBBaseClasses" type="1d218c8b:XcodeProjectNode" />
+              <item name="PBBaseClasses" type="fcab9f18:XcodeViewNode" />
+              <item name="Pod" type="fcab9f18:XcodeViewNode" />
+              <item name="Classes" type="fcab9f18:XcodeViewNode" />
+              <item name="Constants" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Pods" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PBBaseClasses">
+    <configuration name="PBBaseClasses" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PBBaseClasses" TARGET_NAME="PBBaseClasses" CONFIG_NAME="Debug" SCHEME_NAME="PBBaseClasses" RUN_TARGET_PROJECT_NAME="PBBaseClasses" RUN_TARGET_NAME="PBBaseClasses" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+    <configuration name="PBClasses" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PBBaseClasses" TARGET_NAME="PBClasses" CONFIG_NAME="Release" SCHEME_NAME="PBClasses" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+    <configuration name="SJFullscreenPopGesture" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="SJFullscreenPopGesture" CONFIG_NAME="Debug" SCHEME_NAME="SJFullscreenPopGesture" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.PBBaseClasses" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PBClasses" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SJFullscreenPopGesture" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24231e77-b3e6-4fbd-8b10-7d3b6c923fef" name="Default" comment="" />
+      <created>1522805157844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522805157844</updated>
+      <workItem from="1522805159180" duration="948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="948000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="142" y="43" width="1400" height="987" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/dispatch/queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="76" column="3" lean-forward="true" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseHeaders/PBBaseClasses.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#191#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/SJFullscreenPopGesture/SJFullscreenPopGesture/UIViewController+SJVideoPlayerAdd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/Constants/PBConstant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseTabBarProfile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SJFullscreenPopGesture/UINavigationController+SJVideoPlayerAdd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="73" column="62" lean-forward="false" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+          <folding>
+            <element signature="e#142#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseNavigationProfile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseNavigationProfile.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2487">
+          <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

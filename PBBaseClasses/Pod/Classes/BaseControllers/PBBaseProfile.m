@@ -75,6 +75,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     }
     UINavigationBar *naviBar = [self initializedNavigationBar];
     [self.view addSubview:naviBar];
+    self.navigationBar = naviBar;
 }
 
 - (void)viewDidLoad {
@@ -111,6 +112,8 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
         [self.statusConstraint activate];
     }
     //*/
+
+    self.navigationController.sj_gestureType = SJFullscreenPopGestureType_Full;
 }
 
 - (void)viewWillLayoutSubviews {
@@ -184,7 +187,7 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
         naviBar.tintColor = tintColor;//影响item字体
         [naviBar setTranslucent:false];
         [naviBar setTitleTextAttributes:attributes];//影响标题
-        _navigationBar = naviBar;
+        return naviBar;
     }
     
     return _navigationBar;
@@ -224,6 +227,10 @@ typedef NS_ENUM(NSUInteger, PBViewPresentation) {
     while (tmp = [enumrator nextObject]) {
         NSLog(@"viewClass:%@---subClass:%@",NSStringFromClass(view.class),NSStringFromClass(tmp.class));
     }
+}
+
+- (void)updateGesturePopStyle:(int)style {
+    self.navigationController.sj_gestureType = style;
 }
 
 - (void)changeNavigationBarShadow2Color:(UIColor *)color {

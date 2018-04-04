@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBBaseClasses"
-  s.version      = "1.6.1"
+  s.version      = "1.7.0"
   s.summary      = "Basic classes for iOS development."
   s.description  = "Basic classes for FLK.Inc iOS Developers, such as ViewController/View etc."
 
@@ -30,4 +30,5 @@ Pod::Spec.new do |s|
   s.dependency 'WZLBadge'
   s.dependency 'PBMediator'
   s.dependency 'SVProgressHUD'
+  s.dependency 'SJFullscreenPopGesture'
 end

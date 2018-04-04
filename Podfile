@@ -9,6 +9,7 @@ pod 'Masonry'
 pod 'WZLBadge'
 pod 'PBMediator'
 pod 'SVProgressHUD'
+pod 'SJFullscreenPopGesture'
 end
 
 target 'PBClasses' do
