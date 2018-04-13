@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24231e77-b3e6-4fbd-8b10-7d3b6c923fef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PBBaseClasses.podspec" afterPath="$PROJECT_DIR$/PBBaseClasses.podspec" />
-      <change beforePath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/PBBaseClasses.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change beforePath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h" afterPath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.h" />
-      <change beforePath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m" afterPath="$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m" />
-      <change beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Masonry.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Masonry.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBKits.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBKits.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBMediator.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/PBMediator.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBBaseClasses.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBBaseClasses.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBClasses.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/Pods-PBClasses.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/SVProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/SVProgressHUD.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/WZLBadge.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/WZLBadge.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/YYKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/YYKit.xcscheme" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/nanhujiaju.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBKits/PBKits.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/PBMediator/PBMediator.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.markdown" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-acknowledgements.plist" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-frameworks.sh" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses-resources.sh" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.debug.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBBaseClasses/Pods-PBBaseClasses.release.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses-resources.sh" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.debug.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PBClasses/Pods-PBClasses.release.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WZLBadge/WZLBadge.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit-prefix.pch" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YYKit/YYKit.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/PBBaseClasses-eixylvigxdgvbqfgbjgxiosgasnu/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,17 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_052A3AD2-C278-411F-AD30-4FC10A3C4DC9" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PBBaseProfile.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2487">
-              <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UINavigationController+SJVideoPlayerAdd.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UINavigationController+SJVideoPlayerAdd.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SJFullscreenPopGesture/UINavigationController+SJVideoPlayerAdd.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -119,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseTabBarProfile.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-48">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -129,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseHeaders/PBBaseClasses.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#191#209#0" expanded="true" />
               </folding>
@@ -158,8 +110,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="43" />
+    <option name="x" value="49" />
+    <option name="y" value="133" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
   </component>
@@ -298,15 +250,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522805157844</updated>
-      <workItem from="1522805159180" duration="948000" />
+      <workItem from="1522805159180" duration="1309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="948000" />
+    <option name="totallyTimeSpent" value="1309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="43" width="1400" height="987" extended-state="0" />
+    <frame x="49" y="133" width="1400" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -351,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseHeaders/PBBaseClasses.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#191#209#0" expanded="true" />
           </folding>
@@ -377,15 +329,7 @@
     <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseTabBarProfile.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SJFullscreenPopGesture/UINavigationController+SJVideoPlayerAdd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -418,8 +362,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PBBaseClasses/Pod/Classes/BaseControllers/PBBaseProfile.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2487">
-          <caret line="225" column="22" lean-forward="true" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        <state relative-caret-position="72">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SJFullscreenPopGesture/UINavigationController+SJVideoPlayerAdd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
       </provider>
