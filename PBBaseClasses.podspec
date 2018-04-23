@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBBaseClasses"
-  s.version      = "1.7.3"
+  s.version      = "1.7.4"
   s.summary      = "Basic classes for iOS development."
   s.description  = "Basic classes for FLK.Inc iOS Developers, such as ViewController/View etc."
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "PBBaseClasses/Pod/Classes/Constants/*.h","PBBaseClasses/Pod/Classes/Categories/*.h","PBBaseClasses/Pod/Classes/BaseViews/*.h","PBBaseClasses/Pod/Classes/BaseHeaders/*.h","PBBaseClasses/Pod/Classes/BaseControllers/*.h"
   s.preserve_paths  = 'PBBaseClasses/Pod/Classes/**/*'
 
-  s.resources    = "PBBaseClasses/Pod/Assets/*.lproj","PBBaseClasses/Pod/Assets/*.ttf"
+  s.resources    = "PBBaseClasses/Pod/Assets/*.lproj","PBBaseClasses/Pod/Assets/PBBaseClasses.xcassets/*"
 
   s.frameworks  = "UIKit","Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
