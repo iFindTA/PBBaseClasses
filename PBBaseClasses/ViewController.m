@@ -24,11 +24,11 @@
     
     //init back navigation bar item
     //left
-    UIBarButtonItem *spacer = [self barSpacer];
-    UIBarButtonItem *backBarItem = [self backBarButtonItem:nil withIconUnicode:@"\U0000e6e2"];
+//    UIBarButtonItem *spacer = [self barSpacer];
+//    UIBarButtonItem *backBarItem = [self bar];
     UINavigationItem *title = [[UINavigationItem alloc] initWithTitle:@"屯儿里的人"];
     //title.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAutomatic;
-    title.leftBarButtonItems = @[spacer, backBarItem];
+    //title.leftBarButtonItems = @[spacer, backBarItem];
     [self.navigationBar pushNavigationItem:title animated:true];
     
     

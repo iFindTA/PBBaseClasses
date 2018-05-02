@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBBaseClasses"
-  s.version      = "1.7.6"
+  s.version      = "1.7.7"
   s.summary      = "Basic classes for iOS development."
   s.description  = "Basic classes for FLK.Inc iOS Developers, such as ViewController/View etc."
 
